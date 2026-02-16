@@ -3,7 +3,7 @@ Program to empty text files.
 When the program is run with a list of text files as command-line arguments, the files will be emptied, i.e. the contents of the files will be deleted (and the files themselves are not deleted). The usage syntax given below clarifies how the program works. Confirmation is taken from the user for each empty operation (default behaviour); only a response of "yes" will cause a file to be emptied.
 
 Syntax:
-$ <executabl> [OPTION] [FILE]
+$ <executable> [OPTION] [FILE]
 [FILE] is a list of text files (separated by blank space(s)) that the program will attempt to empty. If [FILE] is empty, then nothing happens.
 
 For the list of options [OPTION], the following options are available:
@@ -73,7 +73,7 @@ int main(int argc, char **arglist)
 		cout<<"When the program is run with a list of text files as command-line arguments, the files will be emptied, i.e. the contents of the files will be deleted (and the files themselves are not deleted). The usage syntax given below clarifies how the program works. Confirmation is taken from the user for each empty operation (default behaviour); only a response of \"yes\" will cause a file to be emptied."<<endl;
 		cout<<endl;
 		cout<<"Syntax:"<<endl;
-		cout<<"$ <executabl> [OPTION] [FILE]"<<endl;
+		cout<<"$ <executable> [OPTION] [FILE]"<<endl;
 		cout<<"[FILE] is a list of text files (separated by blank space(s)) that the program will attempt to empty. If [FILE] is empty, then nothing happens."<<endl;
 		cout<<"\nFor the list of options [OPTION], the following options are available:"<<endl;
 		cout<<"-f, --force"<<endl;

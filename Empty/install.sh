@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Installation of empty: Program to empty text files..."
-echo -n "Compiling... "
+echo "Installation of 'empty': Program to empty text files"
+echo "----------------------------------------------------"
+echo "Compiling... "
 
 make
 
@@ -9,7 +10,7 @@ echo "Compilation done."
 echo "Installing to /usr/local/bin..."
 
 current=$(pwd)
-sudo ln -s $current/empty /usr/local/bin
+sudo ln -f -s $current/empty /usr/local/bin
 
-echo "Installation complete. Done!"
-echo "See manual by entering \"empty --help\""
+echo -e "Installation complete. Done!\n"
+echo "See manual by entering \"empty --help\"."
