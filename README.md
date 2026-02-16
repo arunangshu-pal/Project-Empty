@@ -45,10 +45,10 @@ For the list of options [OPTION], the following options are available: <br/>
 </pre>
 
 ### Examples:
-<pre> $ ./empty.out f1 f2 f3 </pre>
+<pre> $ empty f1 f2 f3 </pre>
 Here, the files f1, f2, f3 will be emptied, i.e. will become blank text files, if user confirms with a response of "yes" for each file.
 
-<pre> $ ./empty.out -f -v f1 f2 </pre>
+<pre> $ empty -f -v f1 f2 </pre>
 Here, f1 and f2 will be emptied without any prompt for confirmation, and also messages will be printed to show what happened.
 
 Author: <br/>
