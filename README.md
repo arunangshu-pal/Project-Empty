@@ -1,5 +1,5 @@
 # Project Empty
-This repository contains the package for the program called "empty". empty is a program to empty text files, i.e. delete the contents of text files.
+This repository contains the package for the program called "empty". empty is a CLI program to empty text files, i.e. delete the contents of text files.
 
 ### Installation steps:
 1. Download the repository as follows: <br/>
